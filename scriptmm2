@@ -1,0 +1,360 @@
+
+local SteshiksHub = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Shadow = Instance.new("ImageLabel")
+local ShadowT = Instance.new("ImageLabel")
+local Osnova = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local plrname = Instance.new("TextLabel")
+local plricon = Instance.new("ImageLabel")
+local Corner = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local LineT = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local LineO = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Container = Instance.new("Frame")
+local Game = Instance.new("ScrollingFrame")
+local NFF = Instance.new("ScrollingFrame")
+local Animations = Instance.new("ScrollingFrame")
+local Settings = Instance.new("ScrollingFrame")
+local Back = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local Hide = Instance.new("TextButton")
+
+SteshiksHub.Name = "Steshik'sHub"
+SteshiksHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SteshiksHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "UI"
+UI.Parent = SteshiksHub
+UI.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+UI.Position = UDim2.new(0.176999018, 0, 0.179000005, 2)
+UI.Size = UDim2.new(0, 643, 0, 25)
+
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = UI
+
+Shadow.Name = "Shadow"
+Shadow.Parent = UI
+Shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shadow.BackgroundTransparency = 1.000
+Shadow.Position = UDim2.new(0, -2, 0, 420)
+Shadow.Size = UDim2.new(0.938461006, 40, -0.119999997, 40)
+Shadow.ZIndex = 101
+Shadow.Image = "http://www.roblox.com/asset/?id=6606084409"
+Shadow.ScaleType = Enum.ScaleType.Slice
+Shadow.SliceCenter = Rect.new(30, 30, 390, 390)
+
+ShadowT.Name = "ShadowT"
+ShadowT.Parent = UI
+ShadowT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShadowT.BackgroundTransparency = 1.000
+ShadowT.Position = UDim2.new(0, 628, 0, 2)
+ShadowT.Size = UDim2.new(-0.0108404327, 40, 16.3104782, 40)
+ShadowT.ZIndex = 101
+ShadowT.Image = "http://www.roblox.com/asset/?id=6606084409"
+ShadowT.ScaleType = Enum.ScaleType.Slice
+ShadowT.SliceCenter = Rect.new(30, 30, 390, 390)
+
+Osnova.Name = "Osnova"
+Osnova.Parent = UI
+Osnova.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Osnova.Position = UDim2.new(0.000669410452, 0, 0.987301588, 0)
+Osnova.Size = UDim2.new(0, 643, 0, 415)
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Osnova
+
+plrname.Name = "plrname"
+plrname.Parent = Osnova
+plrname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+plrname.BackgroundTransparency = 1.000
+plrname.Position = UDim2.new(0.100252472, 0, 0.863901258, 0)
+plrname.Size = UDim2.new(0, 106, 0, 20)
+plrname.ZIndex = 3
+plrname.Font = Enum.Font.SourceSansBold
+plrname.Text = "plrname"
+plrname.TextColor3 = Color3.fromRGB(255, 255, 255)
+plrname.TextSize = 18.000
+plrname.TextXAlignment = Enum.TextXAlignment.Left
+
+plricon.Name = "plricon"
+plricon.Parent = Osnova
+plricon.BackgroundColor3 = Color3.fromRGB(49, 51, 56)
+plricon.Position = UDim2.new(0.0104850903, 0, 0.865265191, 0)
+plricon.Size = UDim2.new(0, 50, 0, 50)
+plricon.ZIndex = 3
+
+Corner.CornerRadius = UDim.new(0, 10)
+Corner.Name = "Corner"
+Corner.Parent = plricon
+
+Tabs.Name = "Tabs"
+Tabs.Parent = Osnova
+Tabs.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Tabs.Position = UDim2.new(0, 0, 0.00215049647, 0)
+Tabs.Size = UDim2.new(0, 177, 0, 350)
+Tabs.ZIndex = 3
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Tabs
+
+LineT.Name = "LineT"
+LineT.Parent = Osnova
+LineT.BackgroundColor3 = Color3.fromRGB(84, 189, 255)
+LineT.BorderColor3 = Color3.fromRGB(38, 38, 38)
+LineT.Position = UDim2.new(0, 0, 0.847788692, 0)
+LineT.Size = UDim2.new(0, 177, 0, 1)
+LineT.ZIndex = 3
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = LineT
+
+LineO.Name = "LineO"
+LineO.Parent = Osnova
+LineO.BackgroundColor3 = Color3.fromRGB(84, 189, 255)
+LineO.BorderColor3 = Color3.fromRGB(27, 27, 27)
+LineO.Position = UDim2.new(0.000884392764, 0, 0.00215049647, 0)
+LineO.Size = UDim2.new(0, 641, 0, 1)
+LineO.ZIndex = 3
+
+UICorner_5.CornerRadius = UDim.new(0, 6)
+UICorner_5.Parent = LineO
+
+Container.Name = "Container"
+Container.Parent = Osnova
+Container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container.BackgroundTransparency = 1.000
+Container.Position = UDim2.new(0.287713856, 0, 0.019277107, 0)
+Container.Size = UDim2.new(0, 450, 0, 399)
+Container.ZIndex = 3
+
+Game.Name = "Game"
+Game.Parent = Container
+Game.Active = true
+Game.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Game.Size = UDim2.new(0, 450, 0, 399)
+
+NFF.Name = "NFF"
+NFF.Parent = Container
+NFF.Active = true
+NFF.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+NFF.Size = UDim2.new(0, 450, 0, 399)
+
+Animations.Name = "Animations"
+Animations.Parent = Container
+Animations.Active = true
+Animations.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Animations.Size = UDim2.new(0, 450, 0, 399)
+
+Settings.Name = "Settings"
+Settings.Parent = Container
+Settings.Active = true
+Settings.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Settings.Size = UDim2.new(0, 450, 0, 399)
+Settings.CanvasPosition = Vector2.new(0, 399.000031)
+
+Back.Name = "Back"
+Back.Parent = Osnova
+Back.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Back.Position = UDim2.new(0, 0, 0.0021504797, 0)
+Back.Size = UDim2.new(0, 177, 0, 414)
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Back
+
+Close.Name = "Close"
+Close.Parent = UI
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.985935211, -25, -0.015404663, 0)
+Close.Size = UDim2.new(0.0139968898, 25, 0.892835081, 0)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "x"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 1.000
+Close.TextWrapped = true
+
+Hide.Name = "Hide"
+Hide.Parent = UI
+Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hide.BackgroundTransparency = 1.000
+Hide.Position = UDim2.new(0.926859081, -25, -0.0566168204, 0)
+Hide.Size = UDim2.new(0.0186625198, 25, 1.04391682, 0)
+Hide.Font = Enum.Font.SourceSans
+Hide.Text = "-"
+Hide.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hide.TextScaled = true
+Hide.TextSize = 1.000
+Hide.TextWrapped = true
+
+local function LKQHCS_fake_script() -- UI.LocalScript 
+	local script = Instance.new('LocalScript', UI)
+
+	local dragger = {}; 
+	local resizer = {};
+	
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		-- // credits to Ririchi / Inori for this cute drag function :)
+		function dragger.new(frame)
+		    local s, event = pcall(function()
+		    	return frame.MouseEnter
+		    end)
+	
+		    if s then
+		    	frame.Active = true;
+	
+		    	event:connect(function()
+		    		local input = frame.InputBegan:connect(function(key)
+		    			if key.UserInputType == Enum.UserInputType.MouseButton1 then
+		    				local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+		    				while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+		    					frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+		    				end
+		    			end
+		    		end)
+	
+		    		local leave;
+		    		leave = frame.MouseLeave:connect(function()
+		    			input:disconnect();
+		    			leave:disconnect();
+		    		end)
+		    	end)
+		    end
+		end
+		
+		function resizer.new(p, s)
+			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
+				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
+			end)
+		end
+	end
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(LKQHCS_fake_script)()
+local function BHKMCBH_fake_script() -- plrname.Name 
+	local script = Instance.new('LocalScript', plrname)
+
+	local Players = game:GetService("Players")
+	
+	local plr = Players.LocalPlayer
+	
+	script.Parent.Text = plr.Name
+	
+end
+coroutine.wrap(BHKMCBH_fake_script)()
+local function AWGH_fake_script() -- plricon.ava 
+	local script = Instance.new('LocalScript', plricon)
+
+	local Players = game:getService("Players")
+	local plr = Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId,thumbType,thumbSize)
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(AWGH_fake_script)()
+local function PDXKVL_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local back = script.Parent.Parent.BackGround
+	local con = script.Parent.Parent.Container
+	
+	local window = {
+			count = 0;
+			toggles = {},
+			closed = false;
+		}
+		script.Parent.MouseButton1Click:connect(function()
+			window.closed = not window.closed
+			script.Parent.Text = (window.closed and "+" or "-")
+			if script.Parent.Text == "+" then
+				back:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				wait(0.1) do
+				con.Visible = false
+				end
+			else
+				back:TweenSize(UDim2.new(0, 190,0, 30), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 190,0, 30), "Out", "Sine", 0.5)
+				wait(0.2) do
+				con.Visible = true
+				end
+				end
+			
+		end)
+	
+end
+coroutine.wrap(PDXKVL_fake_script)()
+local function HHFQZ_fake_script() -- Hide.LocalScript 
+	local script = Instance.new('LocalScript', Hide)
+
+	local hide2 = script.Parent.Parent.Osnova
+	local hide3 = script.Parent.Parent.Back
+	local hide4 = script.Parent.Parent.Container
+	local hide5 = script.Parent.Parent.LineO
+	local hide6 = script.Parent.Parent.LineT
+	local hide7 = script.Parent.Parent.
+	local hide10 = script.Parent.Parent.plricon
+	local hide11 = script.Parent.Parent.plrname
+	local hide12 = script.Parent.Parent.Parent.Shadow
+	local hide13 = script.Parent.Parent.Parent.ShadowT
+	local window = {
+			count = 0;
+			toggles = {},
+			closed = false;
+		}
+		script.Parent.MouseButton1Click:connect(function()
+			window.closed = not window.closed
+			script.Parent.Text = (window.closed and "+" or "-")
+			if script.Parent.Text == "+" then
+			hide2:TweenSize(UDim2.new(0, 643,0, 0), "Out", "Sine", 0.5)
+			hide3:TweenSize(UDim2.new(0, 177,0, 0), "Out", "Sine", 0.5)
+			hide4:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide5:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide6:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide7:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide8:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide9:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide10:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide11:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide12:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide13:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			
+				wait(0.1) do
+				hide2.Visible = false
+				end
+			else
+			hide2:TweenSize(UDim2.new(0, 643,0, 415), "Out", "Sine", 0.5)
+			hide3:TweenSize(UDim2.new(0, 177,0, 414), "Out", "Sine", 0.5)
+			hide4:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide5:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide6:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide7:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide8:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide9:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide10:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide11:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide12:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+			hide13:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				wait(0.2) do
+				hide2.Visible = true
+				end
+				end
+			
+		end)
+	
+end
+coroutine.wrap(HHFQZ_fake_script)()
